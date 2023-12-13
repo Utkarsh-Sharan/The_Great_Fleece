@@ -10843,9 +10843,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65182e1cefefb4849942b9952ca6de5d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _coinPrefab: {fileID: 7008243137042310822, guid: 4aee20544b12e47219af132208bc5ccb,
-    type: 3}
-  _coinSoundEffect: {fileID: 8300000, guid: 7a03079805ab64c8ea844d80fdc43366, type: 3}
 --- !u!1 &287124543
 GameObject:
   m_ObjectHideFlags: 0
@@ -22719,6 +22716,7 @@ GameObject:
   - component: {fileID: 609180733}
   - component: {fileID: 609180735}
   - component: {fileID: 609180734}
+  - component: {fileID: 609180736}
   m_Layer: 0
   m_Name: Floor
   m_TagString: Untagged
@@ -22792,6 +22790,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 609180732}
   m_Mesh: {fileID: 4300002, guid: ad53282dae0cc4f9da52cd53239cd755, type: 3}
+--- !u!114 &609180736
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 609180732}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d2d17dda32fdb2499c07b2cb504cd1b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _coinPrefab: {fileID: 7008243137042310822, guid: 4aee20544b12e47219af132208bc5ccb,
+    type: 3}
+  _coinSoundEffect: {fileID: 8300000, guid: 7a03079805ab64c8ea844d80fdc43366, type: 3}
 --- !u!1 &610211136
 GameObject:
   m_ObjectHideFlags: 0
@@ -46232,13 +46245,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1199145689}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.40555978, y: 0.19764818, z: -0.09028182, w: 0.88786584}
-  m_LocalPosition: {x: -10.03, y: 10.25, z: 96.63}
+  m_LocalRotation: {x: -0.41067404, y: 0.6118802, z: -0.34450907, w: 0.5816039}
+  m_LocalPosition: {x: 1.151, y: 16.081, z: 143.852}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1560823444}
-  m_LocalEulerAnglesHint: {x: 49.1, y: 25.1, z: 0}
+  m_LocalEulerAnglesHint: {x: -3.216, y: 94.947, z: -64.787}
 --- !u!1 &1201385194
 GameObject:
   m_ObjectHideFlags: 0

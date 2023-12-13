@@ -5,14 +5,14 @@ using UnityEngine.AI;
 
 public class Player : MonoBehaviour
 {
-    [SerializeField] private GameObject _coinPrefab;
-    [SerializeField] private AudioClip _coinSoundEffect;
+    //[SerializeField] private GameObject _coinPrefab;
+    //[SerializeField] private AudioClip _coinSoundEffect;
 
     private NavMeshAgent _agent;
     private Animator _anim;
 
     private Vector3 _target;
-    private bool _hasTossedCoin;
+    //private bool _hasTossedCoin;
 
     // Start is called before the first frame update
     void Start()
@@ -46,7 +46,7 @@ public class Player : MonoBehaviour
             _anim.SetBool("Walk", false);
         }
 
-        if (Input.GetMouseButtonDown(1) && _hasTossedCoin == false)
+        /*if (Input.GetMouseButtonDown(1) && _hasTossedCoin == false)
         {
             RaycastHit hitInfo;
             Ray rayOrigin = Camera.main.ScreenPointToRay(Input.mousePosition);
@@ -60,10 +60,10 @@ public class Player : MonoBehaviour
 
                 SendAIToCoinSpot(hitInfo.point);
             }
-        }
+        }*/
     }
 
-    void SendAIToCoinSpot(Vector3 coinPos)
+    /*void SendAIToCoinSpot(Vector3 coinPos)
     {
         GameObject[] guards = GameObject.FindGameObjectsWithTag("Guard1");
 
@@ -78,5 +78,5 @@ public class Player : MonoBehaviour
             currentAnim.SetBool("Walk", true);
             currentGuard.coinPos = coinPos;
         }
-    }
+    }*/
 }
